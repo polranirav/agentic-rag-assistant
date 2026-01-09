@@ -1,0 +1,89 @@
+# ===========================================
+# Agentic RAG Knowledge Assistant - Git Ignore
+# ===========================================
+
+# ------------------------------------------
+# Environment & Secrets
+# ------------------------------------------
+.env
+.env.local
+.env.*.local
+*.pem
+
+# ------------------------------------------
+# Python
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ------------------------------------------
+# Node.js / Frontend
+# ------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ------------------------------------------
+# Build Output
+# ------------------------------------------
+frontend/dist/
+frontend/build/
+*.js.map
+
+# ------------------------------------------
+# IDE & Editor
+# ------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------
+# Testing & Coverage
+# ------------------------------------------
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# ------------------------------------------
+# Data & Uploads (keep structure, ignore content)
+# ------------------------------------------
+data/raw/PDF/*.pdf
+data/raw/TXT/*.txt
+data/raw/MD/*.md
+!data/raw/PDF/README.md
+!data/raw/TXT/README.md
+!data/raw/MD/README.md
+
+# ------------------------------------------
+# Logs
+# ------------------------------------------
+*.log
+logs/
+
+# ------------------------------------------
+# Misc
+# ------------------------------------------
+*.bak
+*.tmp
+*.temp

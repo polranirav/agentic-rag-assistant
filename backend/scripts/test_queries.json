@@ -1,0 +1,41 @@
+{
+  "test_queries": [
+    "What is the refund policy?",
+    "How do I request time off?",
+    "Tell me about health insurance benefits",
+    "What are the working hours?",
+    "How can I contact HR?",
+    "What is the vacation policy?",
+    "How many days off do I get?",
+    "What is the maximum refund allowed?",
+    "When is the next company holiday?",
+    "What documents do I need for onboarding?"
+  ],
+  "intent_examples": {
+    "knowledge_search": [
+      "What is the refund policy?",
+      "Tell me about health insurance",
+      "How do I request time off?"
+    ],
+    "calculation": [
+      "What is 25 * 47?",
+      "How many days until Christmas?",
+      "Convert 100 USD to EUR"
+    ],
+    "greeting": [
+      "Hello",
+      "How are you?",
+      "Thanks for your help"
+    ],
+    "api_lookup": [
+      "What's the weather today?",
+      "Current stock price of AAPL"
+    ]
+  },
+  "evaluation_criteria": {
+    "min_confidence": 0.65,
+    "min_faithfulness": 0.85,
+    "min_relevancy": 0.80,
+    "max_latency_ms": 2000
+  }
+}

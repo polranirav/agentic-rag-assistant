@@ -1,0 +1,6 @@
+# Backend Requirements
+# Note: This file references the root requirements.txt
+# Install from root: pip install -r ../requirements.txt
+
+# Or copy dependencies here for standalone backend installation
+# See ../requirements.txt for full list
