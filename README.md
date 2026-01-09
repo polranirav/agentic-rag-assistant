@@ -22,7 +22,7 @@ This intelligent agent doesn't just retrieve documents—it evaluates them, re-w
 
 ## 🎥 Demo
 
-<video src="docs/demo.webp" width="100%" controls style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></video>
+<img src="docs/demo.webp" alt="Project Demo" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
 
 ---
 
